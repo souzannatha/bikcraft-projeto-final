@@ -1,89 +1,26 @@
-body {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+@import url(./global/global.css);
+@import url(./utilidades/cores.css);
+@import url(./utilidades/tipografia.css);
 
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
+@import url(./global/header.css);
+@import url(./global/footer.css);
+/* utilidades */
+@import url(./utilidades/componentes.css);
+/* home */
+@import url(./home/introducao.css);
+@import url(./home/tecnologias.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimento.css);
 
-a {
-  text-decoration: none;
-}
+/* Bicicletas */
+@import url(./bicicletas/bicicletas-lista.css);
+@import url(./bicicletas/bicicletas.css);
+@import url(./bicicleta/bicicleta.css);
+@import url(./bicicleta/seguro.css);
 
-.header-bg {
-  background: #000000;
-}
+/* Seguros */
+@import url(./seguros/seguros.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);
 
-.header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-
-.header-menu a {
-  display: inline-block;
-  color: #ffffff;
-  padding: 16px 0;
-  font-size: 18px;
-  position: relative;
-}
-
-.header-menu a:after {
-  content: "";
-  margin-top: 4px;
-  display: block;
-  height: 2px;
-  width: 0px;
-  background-color: #ffffff;
-  transition: 0.4s ease;
-  position: absolute;
-}
-
-.header-menu a:hover:after {
-  width: 100%;
-}
-
-@media (max-width: 800px) {
-  .header-menu {
-    gap: 20px;
-  }
-
-  .header-menu a {
-    padding: 12px 16px;
-    background-color: #111111;
-    border-radius: 4px;
-  }
-  .header-menu a:hover {
-    background: #2e2e2e;
-  }
-
-  .header a:after {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .header-menu {
-    gap: 12px;
-  }
-
-  .header-menu a {
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-}
+@import url(./termos/termos.css);
