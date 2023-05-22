@@ -28,12 +28,17 @@
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas.css);
 
+<<<<<<< HEAD
 /* contato */
 @import url("./contato/contato.css");
 @import url("./contato/lojas.css");
 
 /* orçamento */
 @import url("./orcamento/orcamento.css");
+=======
+@import url(./contato/contato.css);
+@import url(./contato/loja.css);
+>>>>>>> 18584720aebbe67d843615e9f039b27b3f6e3282
 
 /* termos */
 @import url(./termos/termos.css);
