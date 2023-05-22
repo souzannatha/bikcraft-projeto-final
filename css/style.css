@@ -1,12 +1,17 @@
 @import url(./global/global.css);
-@import url(./utilidades/cores.css);
 @import url(./utilidades/tipografia.css);
+@import url(./utilidades/cores.css);
+@import url(./utilidades/animacao.css);
+
 
 @import url(./global/header.css);
 @import url(./global/footer.css);
+
 /* utilidades */
 @import url(./utilidades/componentes.css);
+@import url(./utilidades/formulario.css);
 /* home */
+
 @import url(./home/introducao.css);
 @import url(./home/tecnologias.css);
 @import url(./home/parceiros.css);
@@ -23,4 +28,12 @@
 @import url(./seguros/vantagens.css);
 @import url(./seguros/perguntas.css);
 
+/* contato */
+@import url("./contato/contato.css");
+@import url("./contato/lojas.css");
+
+/* orçamento */
+@import url("./orcamento/orcamento.css");
+
+/* termos */
 @import url(./termos/termos.css);
